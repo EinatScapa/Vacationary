@@ -1,13 +1,12 @@
+import './App.css'
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
-
 import {
     BrowserRouter as Router,
     Switch,
     Redirect,
     Route,
   } from "react-router-dom";
-import './App.css'
 import Home from './components/Home'
 import Login from './components/Login'
 import Register from './components/Register'
